@@ -236,7 +236,7 @@ def main():
     """Run benchmark for MNIST and CIFAR-10."""
     import argparse
     parser = argparse.ArgumentParser(description='Benchmark GeomGAP vs Adam')
-    parser.add_argument('--epochs', type=int, default=2, help='Number of epochs per dataset')
+    parser.add_argument('--epochs', type=int, default=3, help='Number of epochs per dataset')
     parser.add_argument('--lr', type=float, default=0.001, help='Learning rate')
     parser.add_argument('--batch_size', type=int, default=128, help='Batch size')
     parser.add_argument('--datasets', nargs='+', default=['mnist', 'cifar10'], choices=['mnist', 'cifar10'], help='Datasets to run')

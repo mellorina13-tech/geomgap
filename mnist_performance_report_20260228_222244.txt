@@ -1,0 +1,52 @@
+MNIST Performance Test Report
+==================================================
+Test date: 2026-02-28T22:22:44.458741
+Epochs: 5
+Batch size: 128
+Learning rate: 0.001
+Seed: 42
+
+ADAM Optimizer
+------------------------------
+Final test accuracy: 95.01%
+Best test accuracy: 95.50% (epoch 4)
+Convergence epoch (95% of best): 2
+Average epoch time: 70.48 s
+Total training time: 352.40 s
+Peak memory usage: 357.70 MB
+
+GEOMGAP Optimizer
+------------------------------
+Final test accuracy: 9.80%
+Best test accuracy: 71.43% (epoch 1)
+Convergence epoch (95% of best): 1
+Average epoch time: 89.75 s
+Total training time: 448.77 s
+Peak memory usage: 357.90 MB
+
+Comparison Summary
+------------------------------
+Accuracy difference (GeomGAP - Adam): -85.21%
+Best accuracy difference: -24.07%
+Time ratio (GeomGAP/Adam): 1.27
+Memory ratio (GeomGAP/Adam): 1.00
+Adam outperforms GeomGAP in final accuracy.
+
+Per Epoch Data (first 5 epochs)
+------------------------------
+ADAM:
+Epoch | Train Loss | Test Loss | Train Acc | Test Acc | Time (s)
+   1 |     1.1252 |    0.4565 |     54.49% |    89.43% | 68.26
+   2 |     0.4116 |    0.2347 |     89.05% |    94.36% | 73.94
+   3 |     0.2820 |    0.2008 |     93.07% |    95.23% | 65.32
+   4 |     0.2345 |    0.1923 |     94.28% |    95.50% | 93.39
+   5 |     0.2085 |    0.2064 |     95.00% |    95.01% | 51.49
+
+GEOMGAP:
+Epoch | Train Loss | Test Loss | Train Acc | Test Acc | Time (s)
+   1 |     1.2024 |    0.8035 |     58.06% |    71.43% | 68.29
+   2 |     2.7944 |    2.3086 |     29.77% |    10.28% | 74.39
+   3 |     3.6237 |    2.3400 |     10.04% |    10.09% | 66.85
+   4 |     5.2323 |   11.3776 |      9.97% |     9.80% | 120.05
+   5 |    61.6908 |  167.5554 |      9.89% |     9.80% | 119.19
+

@@ -113,7 +113,7 @@ def evaluate(model, loader, criterion, device):
 def main():
     parser = argparse.ArgumentParser(description='Train with GeomGAP optimizer')
     parser.add_argument('--dataset', type=str, default='mnist', choices=['mnist', 'cifar10'], help='Dataset')
-    parser.add_argument('--epochs', type=int, default=10, help='Number of epochs')
+    parser.add_argument('--epochs', type=int, default=3, help='Number of epochs')
     parser.add_argument('--batch_size', type=int, default=128, help='Batch size')
     parser.add_argument('--lr', type=float, default=0.001, help='Learning rate (a parameter)')
     parser.add_argument('--r', type=float, default=1.005, help='Geometric factor r')
