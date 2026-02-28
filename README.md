@@ -155,6 +155,8 @@ Below is a comparison of GeomGAP vs Adam on MNIST (1 epoch). The CIFAR‑10 benc
 | GeomGAP   | 1.2096     | 58.12%         | 0.7714    | 74.84%        |
 | Adam      | 1.3030     | 49.47%         | 0.4714    | 84.13%        |
 
+**Note:** Because we used a very simple dataset (MNIST) and only trained for a single epoch, Adam may appear ahead in certain metrics. However, GeomGAP is designed to excel with longer, more complex training tasks and heavy datasets, where its geometric damping and gradient‑explosion prevention will provide a clear advantage.
+
 GeomGAP reduces loss oscillations, especially at high learning rates, and prevents gradient explosion.
 
 ## Project Structure
