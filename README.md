@@ -178,6 +178,7 @@ Epoch 10/10 | Train Loss: 0.1417 | Train Acc: 96.63% | Test Loss: 0.1482 | Test 
 
 Running GEOMGAP optimizer...
   Starting GEOMGAP...
+  
  Epoch 1/10 | Train Loss: 1.1852 | Train Acc: 53.48% | Test Loss: 0.4704 | Test Acc: 83.06% | Time: 48.80s
  
  Epoch 2/10 | Train Loss: 0.4511 | Train Acc: 83.95% | Test Loss: 0.3195 | Test Acc: 86.15% | Time: 48.63s
