@@ -157,24 +157,47 @@ Epoch,Train Loss,Train Acc,Test Loss,Test Acc,Time
 Epoch 1/10 | Train Loss: 1.1252 | Train Acc: 54.49% | Test Loss: 0.4565 | Test Acc: 89.43% | Time: 44.06s
 
 Epoch 2/10 | Train Loss: 0.4116 | Train Acc: 89.05% | Test Loss: 0.2347 | Test Acc: 94.36% | Time: 55.56s
+
 Epoch 3/10 | Train Loss: 0.2820 | Train Acc: 93.07% | Test Loss: 0.2008 | Test Acc: 95.23% | Time: 40.10
-   
-  Final test accuracy: 97.03%
-  Best test accuracy: 97.03% at epoch 10
-  Average epoch time: 42.26 s
+
+Epoch 4/10 | Train Loss: 0.2345 | Train Acc: 94.28% | Test Loss: 0.1923 | Test Acc: 95.50% | Time: 39.99s
+
+Epoch 5/10 | Train Loss: 0.2085 | Train Acc: 95.00% | Test Loss: 0.2064 | Test Acc: 95.01% | Time: 40.15s
+
+Epoch 6/10 | Train Loss: 0.1870 | Train Acc: 95.47% | Test Loss: 0.1436 | Test Acc: 96.70% | Time: 40.30s
+
+Epoch 7/10 | Train Loss: 0.1767 | Train Acc: 95.82% | Test Loss: 0.1797 | Test Acc: 96.27% | Time: 40.61s
+
+Epoch 8/10 | Train Loss: 0.1636 | Train Acc: 96.18% | Test Loss: 0.1348 | Test Acc: 97.01% | Time: 40.85s
+
+Epoch 9/10 | Train Loss: 0.1462 | Train Acc: 96.52% | Test Loss: 0.1498 | Test Acc: 96.92% | Time: 40.46s
+
+Epoch 10/10 | Train Loss: 0.1417 | Train Acc: 96.63% | Test Loss: 0.1482 | Test Acc: 97.03% | Time: 40.53s
+
+  Final test accuracy: 97.03% , Best test accuracy: 97.03% at epoch 10 , Average epoch time: 42.26 s
 
 Running GEOMGAP optimizer...
   Starting GEOMGAP...
-    Epoch 1/10 | Train Loss: 1.1852 | Train Acc: 53.48% | Test Loss: 0.4704 | Test Acc: 83.06% | Time: 48.80s
-    Epoch 2/10 | Train Loss: 0.4511 | Train Acc: 83.95% | Test Loss: 0.3195 | Test Acc: 86.15% | Time: 48.63s
-    Epoch 3/10 | Train Loss: 0.3524 | Train Acc: 86.86% | Test Loss: 0.2639 | Test Acc: 89.09% | Time: 49.38s
-    Epoch 4/10 | Train Loss: 0.2765 | Train Acc: 93.24% | Test Loss: 0.2168 | Test Acc: 95.66% | Time: 49.19s
-    Epoch 5/10 | Train Loss: 0.2031 | Train Acc: 95.46% | Test Loss: 0.1699 | Test Acc: 96.33% | Time: 49.19s
-    Epoch 6/10 | Train Loss: 0.1613 | Train Acc: 96.26% | Test Loss: 0.1332 | Test Acc: 96.66% | Time: 49.78s
-    Epoch 7/10 | Train Loss: 0.1419 | Train Acc: 96.78% | Test Loss: 0.1538 | Test Acc: 96.44% | Time: 49.73s
-    Epoch 8/10 | Train Loss: 0.1298 | Train Acc: 97.02% | Test Loss: 0.1503 | Test Acc: 96.82% | Time: 49.26s
-    Epoch 9/10 | Train Loss: 0.1154 | Train Acc: 97.45% | Test Loss: 0.1281 | Test Acc: 97.28% | Time: 49.80s
-    Epoch 10/10 | Train Loss: 0.1118 | Train Acc: 97.40% | Test Loss: 0.1141 | Test Acc: 97.36% | Time: 49.69s
+ Epoch 1/10 | Train Loss: 1.1852 | Train Acc: 53.48% | Test Loss: 0.4704 | Test Acc: 83.06% | Time: 48.80s
+ 
+ Epoch 2/10 | Train Loss: 0.4511 | Train Acc: 83.95% | Test Loss: 0.3195 | Test Acc: 86.15% | Time: 48.63s
+    
+ Epoch 3/10 | Train Loss: 0.3524 | Train Acc: 86.86% | Test Loss: 0.2639 | Test Acc: 89.09% | Time: 49.38s
+    
+  Epoch 4/10 | Train Loss: 0.2765 | Train Acc: 93.24% | Test Loss: 0.2168 | Test Acc: 95.66% | Time: 49.19s
+    
+  Epoch 5/10 | Train Loss: 0.2031 | Train Acc: 95.46% | Test Loss: 0.1699 | Test Acc: 96.33% | Time: 49.19s
+    
+  Epoch 6/10 | Train Loss: 0.1613 | Train Acc: 96.26% | Test Loss: 0.1332 | Test Acc: 96.66% | Time: 49.78s
+    
+  Epoch 7/10 | Train Loss: 0.1419 | Train Acc: 96.78% | Test Loss: 0.1538 | Test Acc: 96.44% | Time: 49.73s
+    
+  Epoch 8/10 | Train Loss: 0.1298 | Train Acc: 97.02% | Test Loss: 0.1503 | Test Acc: 96.82% | Time: 49.26s
+    
+   Epoch 9/10 | Train Loss: 0.1154 | Train Acc: 97.45% | Test Loss: 0.1281 | Test Acc: 97.28% | Time: 49.80s
+    
+   Epoch 10/10 | Train Loss: 0.1118 | Train Acc: 97.40% | Test Loss: 0.1141 | Test Acc: 97.36% | Time: 49.69s
+  
   GEOMGAP completed.
   Final test accuracy: 97.36%
   Best test accuracy: 97.36% at epoch 10
