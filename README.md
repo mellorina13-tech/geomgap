@@ -155,6 +155,7 @@ Epochs: 10, LR: 0.001, Batch size: 128, Seed: 42
 Epoch,Train Loss,Train Acc,Test Loss,Test Acc,Time
 
 Epoch 1/10 | Train Loss: 1.1252 | Train Acc: 54.49% | Test Loss: 0.4565 | Test Acc: 89.43% | Time: 44.06s
+
 Epoch 2/10 | Train Loss: 0.4116 | Train Acc: 89.05% | Test Loss: 0.2347 | Test Acc: 94.36% | Time: 55.56s
    
   Final test accuracy: 97.03%
